@@ -1,0 +1,46 @@
+button{
+    background-color: lightseagreen;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid lightseagreen;
+}
+
+.all {
+    width: 25%;
+    background-color:brown;
+    height: 300px;
+    border-radius: 5px;
+}
+#fall {
+    text-align: center;
+    padding-top: 15px;
+    color: lightseagreen;
+    font-family: serif;
+    font-size: 20px;
+}
+@media screen and (max-width : 478px) {
+    body{
+        background-color: lightseagreen;
+    }
+    .all {
+        width: 75%;
+        margin-top: 65px;
+        margin-left: 40px;
+        background-color:brown;
+        height: 500px;
+        border-radius: 5px;
+    }
+    button{
+        background-color: lightseagreen;
+        height: 30px;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 52px;
+        border: 1px solid lightseagreen;
+        font-weight: 30px;
+    }
+
+    
+}
